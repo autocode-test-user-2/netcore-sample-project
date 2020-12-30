@@ -4,6 +4,7 @@ namespace FancyCalc
 {
     public class FancyCalcEnguine
     {
+        public IStorage Storage { get; set; }
 
         public double Add(int a, int b)
         {
