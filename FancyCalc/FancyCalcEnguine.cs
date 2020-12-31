@@ -19,10 +19,5 @@ namespace FancyCalc
         {
             return a * b;
         }
-
-        public double Culculate(string expression)
-        {
-           return 6;
-        }
     }
 }
