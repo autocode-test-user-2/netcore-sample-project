@@ -1,3 +1,5 @@
+using System;
+
 namespace FancyCalc
 {
     public class FancyCalcEnguine
@@ -5,12 +7,14 @@ namespace FancyCalc
 
         public double Add(int a, int b)
         {
+            // commented out code
             return a + b;
         }
 
 
         public double Subtract(int a, int b)
         {
+           int c = 10; //useless variable and commented out code 
            return a - b;
         }
 
