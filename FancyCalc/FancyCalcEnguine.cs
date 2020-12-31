@@ -5,24 +5,24 @@ namespace FancyCalc
 
         public double Add(int a, int b)
         {
-            return a + b;
+           return a + b;
         }
 
 
         public double Subtract(int a, int b)
         {
-           return a - b;
+           throw new NotImplementedException();
         }
 
 
         public double Multiply(int a, int b)
         {
-            return a * b;
+           throw new NotImplementedException();
         }
 
         public double Culculate(string expression)
         {
-           return 6;
+           throw new NotImplementedException();
         }
     }
 }
