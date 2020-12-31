@@ -21,10 +21,5 @@ namespace FancyCalc
         {
            throw new NotImplementedException();
         }
-
-        public double Culculate(string expression)
-        {
-           throw new NotImplementedException();
-        }
     }
 }
