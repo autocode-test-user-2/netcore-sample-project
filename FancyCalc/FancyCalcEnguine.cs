@@ -13,7 +13,7 @@ namespace FancyCalc
 
         public double Subtract(int a, int b)
         {
-           throw new NotImplementedException();
+           return a - b;
         }
 
 
